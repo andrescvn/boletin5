@@ -19,14 +19,16 @@ public class Producto {
        this.cant=cant;
    }
    public void tipo (float n1){
+       String mensaxe;
        if (n1<=100)
-           System.out.println("baixo");
+           mensaxe="baixa";                
        else if (n1<=500)
-           System.out.println("medio");
+       mensaxe="media";
        else if (n1<=1000)
-           System.out.println("alto");
+           mensaxe="alta";
       else 
-           System.out.println("primeira necesidade"); 
+           mensaxe="primeira";
+       System.out.println("o producto e de " + mensaxe +" necesidade");
 }
    }
 
