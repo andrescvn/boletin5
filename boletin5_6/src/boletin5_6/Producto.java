@@ -21,9 +21,9 @@ public class Producto {
    public void tipo (float n1){
        if (n1<=100)
            System.out.println("baixo");
-       else if (n1>100&&n1<=500)
+       else if (n1<=500)
            System.out.println("medio");
-       else if (n1>500&&cant<=1000)
+       else if (n1<=1000)
            System.out.println("alto");
       else 
            System.out.println("primeira necesidade"); 
