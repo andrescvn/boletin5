@@ -19,15 +19,19 @@ public class Peso {
         this.peso2=peso2;
     }
     public void maisPesado(float peso1, float peso2){
-        if(peso1>peso2)
+          float maior=(peso1>peso2)? (peso1-peso2):(peso2-peso1);
+       System.out.println("diferencia = "+ maior );
+        if(peso1>peso2){
             System.out.println("el primero pesa mas");
-        else
+        System.out.println("a diferenza e " + (peso1-peso2));}
+        else{
             System.out.println("el segundo pesa mas");
+        System.out.println("a diferenza e " + (peso2-peso1));}
  
     }
-       public void direfenciaPeso (float peso1, float peso2){
+       /*public void direfenciaPeso (float peso1, float peso2){
     float maior=(peso1>peso2)? (peso1-peso2):(peso2-peso1);
        System.out.println("diferencia = "+ maior );
   
-}
+}*/
 }

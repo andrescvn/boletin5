@@ -18,7 +18,7 @@ public class Boletin5_4 {
         // TODO code application logic here
         Peso peso1=new Peso ();
         peso1.maisPesado(60, 50);
-        peso1.direfenciaPeso(60, 50);
+       /* peso1.direfenciaPeso(60, 50);*/
     }
     
 }
